@@ -7,6 +7,13 @@ void main() {
         title: Text("Hello Flutter"),
         centerTitle: true
       ),
+      body: Center(
+        child: Text("First Flutter App"),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {  },
+        child: Text("Click"),
+      ),
      )
     )
   );
