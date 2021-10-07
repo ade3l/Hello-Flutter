@@ -19,16 +19,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepOrange[300],
       ),
       body:  const Center(
-        child: Text(
-            "First Flutter App",
-            style: TextStyle(
-              fontSize: 40.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2,
-              color: Colors.black,
-              fontFamily: 'Ephesis',
-            )
-        ),
+        child: Image(image: NetworkImage("https://i.stack.imgur.com/zMu9c.png")),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
