@@ -19,10 +19,14 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepOrange[300],
       ),
       body:   Center(
-        child: Icon(
-            Icons.access_alarm,
-            color:Colors.tealAccent,
-            size:50.0,
+        child: ElevatedButton(
+          onPressed: () {  },
+          child: Text("Click me"),
+          style: ElevatedButton.styleFrom(
+            primary: Colors.red,
+            onPrimary: Colors.white,
+            onSurface: Colors.blue,
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
