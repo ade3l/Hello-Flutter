@@ -18,13 +18,13 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.deepOrange[300],
       ),
-      body:   Center(
-        child: IconButton(
-          icon: const Icon(Icons.phone),
-          onPressed: () {  },
-          color:Colors.tealAccent,
-          iconSize: 50.0,
-        ),
+      body:   Container(
+        padding: const EdgeInsets.symmetric(horizontal: 30.0,vertical: 10.0),
+        margin: const EdgeInsets.fromLTRB(30, 10, 15, 20),
+        color:Colors.grey,
+        //If there is no child then the container takes up
+        // the maximum space that it can
+        child: Text("hello"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
