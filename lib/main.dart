@@ -19,7 +19,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepOrange[300],
       ),
       body:   Center(
-        child: Image.asset('assets/car.jpg'),
+        child: Icon(
+            Icons.access_alarm,
+            color:Colors.tealAccent,
+            size:50.0,
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
