@@ -19,11 +19,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepOrange[300],
       ),
       body:  const Center(
-        child: Image(image: NetworkImage("https://i.stack.imgur.com/zMu9c.png")),
+        child: Image(image: AssetImage("assets/xps.jpg")),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
-        child: Text("Press"),
+        child: Tezxt("Press"),
         backgroundColor: Colors.deepOrange[400] ,
       ),
     );
