@@ -18,12 +18,12 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.deepOrange[300],
       ),
-      body:  const Center(
-        child: Image(image: AssetImage("assets/xps.jpg")),
+      body:   Center(
+        child: Image.asset('assets/car.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
-        child: Tezxt("Press"),
+        child: Text("Press"),
         backgroundColor: Colors.deepOrange[400] ,
       ),
     );
